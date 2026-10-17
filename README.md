@@ -1,16 +1,35 @@
-# React + Vite
+ In-Time – Developer Task Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web app that helps developers recover from interruptions.
 
-Currently, two official plugins are available:
+<!-- Add 2–3 screenshots here: project list, pause journal, resume screen -->
+<!-- ![Pause journal](docs/pause.png) -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What it does
 
-## React Compiler
+Developers lose time every time they're interrupted, because getting back into a task means remembering where they were. In-Time makes that hand-over to your future self explicit.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Projects and tasks:** organise work into projects, each with tasks that have deadlines, objectives, dependencies, methods and a priority ranking
+- **Interruption journal:** when you pause a task, In-Time asks four short questions: what you last worked on, where to pick up next time, whether you reached your goal for the session, and what's still missing
+- **Context call:** store reference notes, links and resources alongside the task
+- **Resume:** when you come back, In-Time shows your latest journal entry and saved context so you can start straight away
+- **Filtering:** view all, active or completed projects
 
-## Expanding the ESLint configuration
+All data is stored locally in the browser (localStorage), so there's no account or backend needed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech stack
+
+React 19 · Vite · localStorage · ESLint
+
+## Run locally
+
+```bash
+git clone https://github.com/Wayneoooo/in-time
+cd in-time
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173.
+
+
