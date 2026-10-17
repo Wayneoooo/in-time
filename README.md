@@ -2,9 +2,6 @@
 
 A React web app that helps developers recover from interruptions.
 
-<!-- Add 2–3 screenshots here: project list, pause journal, resume screen -->
-<!-- ![Pause journal](docs/pause.png) -->
-
 ## What it does
 
 Developers lose time every time they're interrupted, because getting back into a task means remembering where they were. In-Time makes that hand-over to your future self explicit.
